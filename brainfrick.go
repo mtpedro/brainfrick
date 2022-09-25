@@ -1,8 +1,8 @@
 package brainfrick
 
 import (
-	"github.com/mtpedro/brainfrick/lib/to"
-	"github.com/mtpedro/brainfrick/lib/from"
+	"github.com/mtpedro/brainfrick/pkg/to"
+	"github.com/mtpedro/brainfrick/pkg/from"
 )
 
 func FromBrain(code string) string {
