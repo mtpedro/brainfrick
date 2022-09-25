@@ -11,7 +11,6 @@ go get github.com/mtpedro/brainfrick
 just import the module in your project and you're good to go!
 ```
 import "github.com/mtpedro/brainfrick"
-...
 ```
 
 ## How to use
