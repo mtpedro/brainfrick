@@ -8,22 +8,9 @@ To add this to your project, run:
 ```
 go get github.com/mtpedro/brainfrick
 ```
-Note that you have to first initialize your golang project:
-```
-go mod init <your project home>
-```
-Next, run:
-```
-go mod tidy
-```
-
 just import the module in your project and you're good to go!
 ```
-//main.go
-package main
-
 import "github.com/mtpedro/brainfrick"
-
 ...
 ```
 
