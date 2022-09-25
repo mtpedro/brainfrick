@@ -8,7 +8,7 @@ To add this to your project, run:
 ```
 go get https://github.com/mtpedro/brainfrick
 ```
-Note that you have to first initialize you go project:
+Note that you have to first initialize your golang project:
 ```
 go mod init <your project home>
 ```
@@ -29,13 +29,13 @@ import "https://github.com/mtpedro/brainfrick"
 
 ## How to use
 
-To convert to brainfrick, you can call:
+To convert brainfrick to text, you can call:
 ```
 brainfrick.FromBrain("+[----->+++<]>+.");
 ```
 this will return the ascii letter H.
 
-you may also convert strings to brainfuck code with:
+you may also convert text to brainfuck code with:
 ```
 brainfrick.ToBrain("H");
 ```
