@@ -1,4 +1,4 @@
-# Golang Brainfuck
+# Brainfrick - Brainfuck in Go.
 
 this is a golang module for converting text to and from brainfuck. 
 
