@@ -6,7 +6,7 @@ this is a golang module for converting text to and from brainfuck.
 
 To add this to your project, run:
 ```
-go get https://github.com/mtpedro/brainfrick
+go get github.com/mtpedro/brainfrick
 ```
 Note that you have to first initialize your golang project:
 ```
@@ -22,7 +22,7 @@ just import the module in your project and you're good to go!
 //main.go
 package main
 
-import "https://github.com/mtpedro/brainfrick"
+import "github.com/mtpedro/brainfrick"
 
 ...
 ```
