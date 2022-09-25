@@ -29,7 +29,7 @@ import "https://github.com/mtpedro/brainfrick"
 
 ## How to use
 
-To convert brainfrick to text, you can call:
+To convert brainfuck to text, you can call:
 ```
 brainfrick.FromBrain("+[----->+++<]>+.");
 ```
@@ -44,4 +44,4 @@ this will return the following brainfuck code:
 >++++++++++[<+++++++>-]++.
 ```
 
-# THIS PROJECT IS UNFINISHED.
+Have fun!

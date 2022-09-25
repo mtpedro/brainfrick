@@ -2,6 +2,7 @@ package brainfrick
 
 import (
 	"github.com/mtpedro/brainfrick/lib/to"
+	"github.com/mtpedro/brainfrick/lib/from"
 )
 
 func FromBrain(code string) string {
@@ -9,5 +10,5 @@ func FromBrain(code string) string {
 }
 
 func ToBrain(text string) string {
-	return "hi";
+	return From.Convert(text);
 }
