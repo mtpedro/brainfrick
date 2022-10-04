@@ -10,13 +10,6 @@ type Program struct {
     at int
 }
 
-func check(e error) {
-    if e != nil {
-        fmt.Println(e);
-        panic(e);
-    }
-}
-
 func Execute(code string) string {
     var program = new(Program);
     program.size = 30000;
